@@ -1,20 +1,25 @@
 # Setup React Project
 
-npm create vite@latest
-Project name: . //se crea con el nombre de la carpeta
-Select framework React
-Javascript
-npm install
+To create a React project you must use the following scripts:
+
+- npm create vite@latest
+- Project name: . //If you type a dot the project name is going to be exactly like the folder name
+- Select framework React
+- Select JavaScript
+- npm install
 
 # Setup .eslint file
 
 To solve the problem of React is declared but never used it install eslint-plugin-react:
-npm install eslint-plugin-react --save-dev
 
-add in .eslintrc.cjs
+-npm install eslint-plugin-react --save-dev
+-add in .eslintrc.cjs:
+
 "rules": {  
  'react/jsx-uses-react': 'error'
 }
+
+# Technologies
 
 # React + Vite
 
