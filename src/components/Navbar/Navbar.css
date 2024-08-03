@@ -51,14 +51,38 @@
     cursor: pointer;
 }
 
+.profile {
+    border-radius: 4px;
+    width: 35px;
+}
+
 .navbar-profile {
     display: flex;
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    position: relative;
 }
 
-.profile {
-    border-radius: 4px;
-    width: 35px;
+/* Dropdown effect CSS */
+.dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: max-content;
+    background: #191919;
+    padding: 18px 22px;
+    border-radius: 2px;
+    text-decoration: underline;
+    z-index: 1;
+    display: none;
+}
+
+.dropdown p{
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.navbar-profile:hover .dropdown{
+    display: block;
 }
