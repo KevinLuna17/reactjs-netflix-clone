@@ -16,20 +16,20 @@
 
 .title-caption-img {
     width: 90%;
-    max-width: 420px;
+    max-width: 450px;
     margin-bottom: 30px;
 }
 
 .hero-caption p {
     max-width: 700px;
-    font-size: 17px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
 .hero-btns {
     display: flex;
     gap: 10px;
-    margin-bottom: 190px;
+    margin-bottom: 160px;
 }
 
 .hero-btns .btn img {
@@ -43,7 +43,7 @@
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    font-size: 15px;
+    font-size: 19px;
     font-weight: 600;
     background: white;
     border-radius: 4px;
@@ -61,4 +61,8 @@
 
 .hero-btns .dark-btn:hover {
     background: #6d6d6e66;
+}
+
+.more-cards{
+    margin-left: 6%;
 }
