@@ -12,12 +12,12 @@ const Navbar = () => {
       <div className='navbar-left'>
         <h1><img src={logo} alt='logo' /></h1>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">TV Shows</a></li>
-          <li><a href="#">Movies</a></li>
-          <li><a href="#">New & Popular</a></li>
-          <li><a href="#">My List</a></li>
-          <li><a href="#">Browse by Languages</a></li>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Series</a></li>
+          <li><a href="#">Peliculas</a></li>
+          <li><a href="#">Novedades populares</a></li>
+          <li><a href="#">Mi lista</a></li>
+          <li><a href="#">Explora por idiomas</a></li>
         </ul>
       </div>
       <div className='navbar-right'>
