@@ -17,12 +17,12 @@ const Home = () => {
         <img src={hero_banner} alt='hero_banner' className='hero-img'/>
         <div className="hero-caption">
           <img src={hero_title} alt='hero_title' className='title-caption-img'/>
-          <p>Discovering his ties to a secret ancient order, a young
-          man living in modern Istanbul embarks on a quest to save the
-          city from an inmortal enemy.</p>
+          <p>Dos almas destinadas a encontrarse, un amor que desafia el tiempo.
+          Descubre la historia de Lili y Kevin y su viaje hacia un Sí, quiero que
+          cambiará sus vidas para siempre.</p>
           <div className="hero-btns">
-            <button className='btn'><img src={play_icon} alt='play_icon' />Play</button>
-            <button className='btn dark-btn'><img src={info_icon} alt='info_icon' />More Info</button>
+            <button className='btn'><img src={play_icon} alt='play_icon' />Reproducir</button>
+            <button className='btn dark-btn'><img src={info_icon} alt='info_icon' />Más información</button>
           </div>
           <TitleCards/>
         </div>
