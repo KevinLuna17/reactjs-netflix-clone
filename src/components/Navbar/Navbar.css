@@ -86,3 +86,8 @@
 .navbar-profile:hover .dropdown{
     display: block;
 }
+
+/* Dark layer below Navbar when scroll the website */
+.nav-dark{
+    background: #141414;
+}
