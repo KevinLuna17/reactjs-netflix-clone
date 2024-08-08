@@ -7,9 +7,17 @@ import hero_banner from '../../assets/hero_banner.jpg'
 import hero_title from '../../assets/hero_title.png'
 import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png'
+import { useNavigate } from 'react-router-dom'
 
 
 const Home = () => {
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/player')
+  }
+
   return (
     <div className='home'>
       <Navbar/>
@@ -21,7 +29,7 @@ const Home = () => {
           Descubre la historia de Lili y Kevin y su viaje hacia un Sí, quiero que
           cambiará sus vidas para siempre.</p>
           <div className="hero-btns">
-            <button className='btn'><img src={play_icon} alt='play_icon' />Reproducir</button>
+            <button className='btn' onClick={handleClick}><img src={play_icon} alt='play_icon' />Reproducir</button>
             <button className='btn dark-btn'><img src={info_icon} alt='info_icon' />Más información</button>
           </div>
           <TitleCards/>
