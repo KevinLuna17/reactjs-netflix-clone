@@ -88,6 +88,29 @@
 }
 
 /* Dark layer below Navbar when scroll the website */
-.nav-dark{
+.nav-dark {
     background: #141414;
+}
+
+/* Tablet responsive design */
+@media (max-width: 800px) {
+    .navbar {
+        padding: 20px 4%;
+    }
+    .navbar-left ul {
+        display: none;
+    }
+    .navbar img {
+        height: 25px;
+    }
+}
+
+/* Mobile responsive design */
+@media (max-width: 500px) {
+    .navbar img {
+        height: 20px;
+    }
+    .navbar-right {
+        gap: 10px;
+    }
 }
