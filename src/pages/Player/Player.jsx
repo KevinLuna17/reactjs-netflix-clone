@@ -15,7 +15,7 @@ const Player = () => {
     <div className='player'>
       <img src={back_arrow_icon} alt='back_arrow_icon' onClick={handleClick}/>
       <iframe width='90%' height='90%' 
-      src='https://www.youtube.com/embed/z8ff_zPbZkg'
+      src='https://www.youtube.com/embed/K4g0icRflu4'
       title='' frameBorder='0' allowFullScreen>
       </iframe>
       <div className="player-info">
